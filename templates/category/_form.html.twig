@@ -1,0 +1,4 @@
+{{ form_start(form) }}
+    {{ form_widget(form.name,{'attr':{'class':'form form-control'}}) }}<br><br>
+    <button class="btn btn-primary">{{ button_label|default('Save') }}</button><br><br>
+{{ form_end(form) }}
